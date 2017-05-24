@@ -30,7 +30,7 @@
                     {% endif %}
                     
                     {% if site.linkedin %}
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">{{site.linkedin}}</a></li>
                     {% else %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956" target="_blank">linkedin.com/in/sharathdt</a></li>
                     {% endif %}
@@ -45,6 +45,12 @@
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
                     {% else %}
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
+                    {% endif %}
+
+                    {% if site.soundcloud %}
+                    <li class="soundcloud"><i class="fa fa-soundcloud"></i><a href="https://soundcloud.com/{{site.soundcloud}}" target="_blank">{{site.soundcloud}}</a></li>
+                    {% else %}
+                     <li class="soundcloud"><i class="fa fa-soundcloud"></i><a href="https://soundcloud.com/@webjeda" target="_blank">@webjeda</a></li>
                     {% endif %}
                     
                 </ul>
